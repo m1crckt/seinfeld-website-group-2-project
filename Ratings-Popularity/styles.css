@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #006fb9;
+    --text-color: #341b21;
+    --white: #ffffff;
+}
+
+body {
+    font-family: arial, sans-serif;
+    color: var(--text-color);
+}
+
+h1, h2 {
+    font-family: "itc-fenice", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary-color);
+}
