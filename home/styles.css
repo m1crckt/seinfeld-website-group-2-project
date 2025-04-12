@@ -105,6 +105,15 @@ p {
     margin-bottom: 6px;
     margin-left: 80px;
     margin-bottom: 6px;
+    animation: hover 1s infinite alternate linear;
+}
+@keyframes hover {
+    from {
+        transform: translateY(0px)
+    }
+    to {
+        transform: translateY(-8px)
+    }
 }
 .section3 {
     clear: both;
