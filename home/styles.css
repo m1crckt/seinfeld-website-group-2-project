@@ -96,7 +96,6 @@ p {
 .section2__text {
     float: left;
     width: 70%;
-
 }
 .section2__img {
     float: right;
@@ -156,5 +155,15 @@ p {
     }
     .section4__img {
         width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .section2__text {
+        float: left;
+        width: 60%;
+    }
+    .section2__img {
+        margin: 80px 0 0 0;
+        width: 350px;
     }
 }
