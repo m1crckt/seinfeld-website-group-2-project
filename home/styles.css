@@ -87,12 +87,6 @@ p {
     margin-right: 80px;
     margin-bottom: 50px;
 }
-.section1__text {
-    margin: 50px
-}
-.section1__p {
-    margin: 50px
-}
 .section2__hr {
     margin-bottom: 30px;
 }
@@ -151,5 +145,16 @@ p {
     .headerlogo {
         height: auto;
         width: 80px;
+    }
+    .section2__text {
+        float: left;
+        width: 100%;
+    }
+    .section2__img {
+        margin: 0;
+        width: 100%;
+    }
+    .section4__img {
+        width: 100%;
     }
 }
