@@ -21,7 +21,7 @@
     z-index: 1000;
 }
 
-.headerlogo {
+.header__logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -59,34 +59,64 @@
     transform: scale(1.1);
 }
 
-/* Add your specific page content below this note */
-
 h1 {
     font-family: "itc-fenice", serif;
     font-weight: 700;
     font-style: normal;
-
 }
 
 h2 {
     font-family: "itc-fenice", serif;
-    font-weight: 700;
-    font-style: italic;
+    font-size: 20px;
+    font-style: normal;
 }
 
 h3 {
     font-family: "itc-fenice", serif;
-    font-weight: 700;
-    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
 }
 
 p {
     font-family: "arial", sans-serif;
-    
 }
 
+blockquote {
+    font-family: "arial", sans-serif;
+    font-size: 18px;
+}
 
-/* Add your specific page content above this note */
+figcaption {
+    font-family: "arial", sans-serif;
+}
+
+.section1__h1 {
+    text-align: center;
+}
+.section1__img {
+    float: left;
+    width: 20%;
+}
+
+.quote_card__container {
+    display: grid;
+    grid-area: quotes;
+    grid-template-columns: ;
+}
+
+.quote_card {
+    margin: 0;
+    width: 300px;
+    background: #eee;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.quote_card blockquote, figcaption {
+    margin: 1em;
+}
+
 
 .footer {
     display: flex;
