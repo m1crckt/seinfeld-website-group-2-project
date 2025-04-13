@@ -59,6 +59,10 @@
     transform: scale(1.1);
 }
 
+.main {
+    display: grid;
+}
+
 h1 {
     font-family: "itc-fenice", serif;
     font-weight: 700;
@@ -67,7 +71,7 @@ h1 {
 
 h2 {
     font-family: "itc-fenice", serif;
-    font-size: 20px;
+    font-size: 18pt;
     font-style: normal;
 }
 
@@ -80,15 +84,21 @@ h3 {
 
 p {
     font-family: "arial", sans-serif;
+    font-size: 15pt;
 }
 
 blockquote {
     font-family: "arial", sans-serif;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 700;
 }
 
 figcaption {
     font-family: "arial", sans-serif;
+}
+
+.section1 {
+    padding:10px 90px;
 }
 
 .section1__h1 {
@@ -96,27 +106,30 @@ figcaption {
 }
 .section1__img {
     float: left;
-    width: 20%;
+    width: 30%;
+    padding: 15px 15px 15px 15px;
 }
 
 .quote_card__container {
-    display: grid;
-    grid-area: quotes;
-    grid-template-columns: ;
+    display: flex;
+    justify-content: center;}
+
+.quote_card__h2 {
+    text-align: center;
 }
 
 .quote_card {
-    margin: 0;
+    margin: 20px;
     width: 300px;
     background: #eee;
     padding: 1em;
     border-radius: 1em;
+    align-items: center;
 }
 
 .quote_card blockquote, figcaption {
     margin: 1em;
 }
-
 
 .footer {
     display: flex;
