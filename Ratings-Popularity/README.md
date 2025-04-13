@@ -30,3 +30,10 @@ font (this is the CSS transition).
     code into your styles sheet and add your specific page content (css) in between the lines. This should hopefully make it easier for everyone.
 - Added an @media query so the header and nav are responsive at smaller resolutions –
     they’re set to adjust at 480px and less, capping the nav links and logo at 80px so they’re still readable.
+
+## [1.0.2] Apr. 12-13, 2025
+### Added
+- A main card for main content (image + updated text)
+- 3 side cards for specific ratings info
+- Animations so 2 side cards fade into the 3rd and back automatically
+- Hover transitions to side card links, similar to that in nav
