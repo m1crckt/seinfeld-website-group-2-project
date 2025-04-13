@@ -1,0 +1,128 @@
+.body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+.container {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: 300px 300px 700px 300px;
+    grid-template-areas: "header" "nav" "main" "footer";
+}
+
+.header {
+background: #006fb9;
+max-width: 100%;
+}
+
+.logo { 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: auto;
+    padding-bottom: 10px 0;
+}
+
+nav {
+    background-color: #e52329;
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+    max-width: 100%;
+}
+
+.topofweb {
+    max-width: 100%;
+    top:0;
+    position:sticky;
+    z-index: 1000;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.3 ease;
+    justify-self: center;
+    font-family: "itc-fenice",serif;
+    font-size: 25px;
+
+}
+
+.link:hover {
+    background-color: #ffd208;
+    color: #e52329;
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    font-family: "itc-fenice",serif;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.names, .descriptions {
+    text-align: center;
+    font-family: "itc-fenice",serif;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "char1" "char2";
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "char3" "char4";
+    gap: 10px;
+}
+
+.imgcard {
+    display:block;
+    align-items: center;
+}
+
+.descriptions {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    background-color: #ffd208;
+    color: #341b21;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:480px) {
+
+    .nav { 
+        height: 30px;
+    }
+    .link {
+        font-size: 1rem;
+        padding: 10px
+    }
+
+    .logo {
+        height: auto;
+        width:80px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+
+}
+
+
