@@ -63,12 +63,29 @@
 
 h1 {
     font-family: "itc-fenice", serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
 
 h2 {
-    font-family: "arial";
-    font-size: 20px;
+    font-family: "itc-fenice", serif;
+    font-weight: 700;
+    font-style: italic;
 }
+
+h3 {
+    font-family: "itc-fenice", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p {
+    font-family: "arial", sans-serif;
+    
+}
+
+
 /* Add your specific page content above this note */
 
 .footer {
