@@ -70,7 +70,12 @@ h1 {
 
 }
 
-.names, .descriptions {
+.names {
+    text-align: center;
+    font-family: "itc-fenice",serif;
+}
+
+.descriptions {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
