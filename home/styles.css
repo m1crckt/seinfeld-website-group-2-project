@@ -95,7 +95,7 @@ p {
 }
 .section2__text {
     float: left;
-    width: 70%;
+    width: 74%;
 }
 .section2__img {
     float: right;
@@ -105,6 +105,15 @@ p {
     margin-bottom: 6px;
     margin-left: 80px;
     margin-bottom: 6px;
+    animation: hover 1s infinite alternate linear;
+}
+@keyframes hover {
+    from {
+        transform: translateY(0px)
+    }
+    to {
+        transform: translateY(-8px)
+    }
 }
 .section3 {
     clear: both;
@@ -157,7 +166,7 @@ p {
         width: 100%;
     }
 }
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .section2__text {
         float: left;
         width: 60%;
